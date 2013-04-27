@@ -1,0 +1,102 @@
+body{
+  background:#000 url(img/sitebg.jpg) no-repeat;
+  font-family:Calibri;
+  font-size:14px;
+  color:#fff;
+  
+  }
+body a:link {color:#CCCCCC}
+body a:visited {color:#FFFFFF}
+body a:hover {color:#999999}
+body a:active {color:#FFFFFF}
+table{
+  background:url(img/table_bg.png) repeat;
+  border-collapse:collapse;
+  border-width:0px;
+  border-color:#666666;
+  border-style:solid;
+  margin:10px;
+  }
+tr.zeile1{
+  background-color:#DDDDDD;
+  align:center;
+  }
+tr.zeile2{
+	background-color:#AAAAAA;
+	}
+
+#box {
+	width: 1250px;
+	margin: 0 auto;
+  }
+#box div {  
+ float: left; 
+ margin: 0;
+ padding: 0;
+}
+
+  
+#box1, #box2, #box3, #box4, #box5 {
+	margin:5px 5px 5px 5px;
+	min-width:160px;
+}
+#box10 {
+	margin:2px 10px 2px 2px;
+	min-width:160px;
+}
+#bottom {
+clear: both;
+width: 100%;
+margin: 0 auto;
+}
+
+#cssmenu ul {
+list-style-type:none;
+width:40%;
+position:relative;
+display:block;
+height:33px;
+font-size:16px;
+background:url(img/bg.png) repeat-x top left;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+border:1px solid #000;
+margin:0;
+padding:0;
+}
+
+#cssmenu li {
+display:block;
+float:left;
+margin:0;
+padding:0;
+}
+
+#cssmenu li a {
+float:left;
+color:#A79787;
+text-decoration:none;
+height:24px;
+padding:9px 15px 0;
+font-weight:normal;
+}
+
+#cssmenu li a:hover,
+#cssmenu .active {
+color:#fff;
+background:url(img/bg.png) repeat-x top left;
+text-decoration:none;
+}
+
+#cssmenu .active a {
+color:#fff;
+font-weight:700;
+}
+
+
+#cssmenu ul{
+background-color:#629600;
+}
+#cssmenu li a:hover, 
+#cssmenu li.active {
+background-color:#7AB900;
+}
