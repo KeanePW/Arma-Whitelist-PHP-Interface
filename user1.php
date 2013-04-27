@@ -43,7 +43,7 @@ initMenu();
         $name_new = $_POST["name"];
         $is_whitelised_new = "1";
         if(strlen($guid_formular) == 32){
-            $eintragen = mysql_query("INSERT INTO whitelist (id, name, guid, is_whitelisted, permission) VALUES (NULL, '$name_new', '$guid_formular', '$is_whitelised_new', 1)");
+            $eintragen = mysql_query("INSERT INTO whitelist (id, name, guid, is_whitelisted, permission) VALUES (NULL, '".mysql_real_escape_string($name_new)."', '".mysql_real_escape_string($guid_formular)."', '".mysql_real_escape_string($is_whitelised_new)."', 1)");
 		if(!$eintragen){
                     echo "fehler: ",mysql_error(),"<br>"; 
                 }
